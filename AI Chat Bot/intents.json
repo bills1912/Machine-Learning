@@ -1,0 +1,23 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["Hello", "Hy", "Wellcome", "Howdy?"],
+            "responses": ["Hello", "Hola", "Hy", "Bonjour", "What's up?", "Hai"]
+        },
+        {
+            "tag": "news",
+            "patterns": ["How are you", "How's life", "How are you doing?"],
+            "responses": ["I'm fine", "Never feeling good like this before"]
+        },
+        {
+            "tag": "introducing",
+            "patterns": ["Please introduce yourself", "Who are you?"],
+            "responses": ["I'm, the UN WHO Bot"]
+        },
+        {
+            "tag": "exit",
+            "patterns": ["Exit", "Close", "Quit", "Bye", "Good bye"],
+            "responses": ["Thank you for coming, see you soon.", "Good bye", "Bye2"]
+        }
+    ]
+}

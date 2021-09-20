@@ -1,0 +1,23 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["Hello", "Hy", "Wellcome", "Howdy?", "What's up?"],
+            "responses": ["Hello, baby?", "Hello, my boy", "Hy, honey"]
+        },
+        {
+            "tag": "news",
+            "patterns": ["How are you", "How's life", "How are you doing?"],
+            "responses": [""]
+        },
+        {
+            "tag": "bunch",
+            "patterns": ["Please tease me", "Please seduce me"],
+            "responses": [""]
+        },
+        {
+            "tag": "exit",
+            "patterns": ["Exit", "Close", "Quit", "Bye", "Good bye"],
+            "responses": [""]
+        }
+    ]
+}
